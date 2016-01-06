@@ -1,0 +1,64 @@
+Config:
+  Nome: "PaintBall"
+  Chamadas: 5
+  Tempo_Entre_As_Chamadas: 30
+  PVP: false
+  VIP: false
+  Assistir_Ativado: true
+  Assistir_Invisivel: true
+  Contar_Vitoria: true
+  Contar_Participacao: true
+  
+Localizacoes:
+  Saida: "world;-110;92;1482"
+  Camarote: "world;-839;8;1109"
+  Entrada: "world;-839;8;1109"
+  Aguardando: "world;-1535;7;1706"
+  Pos_1: "world;-1535;7;1706"
+  Pos_2: "world;-1535;7;1706"
+
+Premios:
+  Money: 5000.0
+
+Mensagens:
+  Aberto:
+    - "  "
+    - "&9[PaintBall] &fO evento &6PaintBall &festa aberto!"
+    - "&9[PaintBall] &fPara participar digite &6/evento entrar"
+    - "&9[PaintBall] &fEsse evento e pvp &a[OFF]"
+    - "&9[PaintBall] &fRisco de morte &c[ON]"
+    - "  "
+  Aberto_VIP:
+    - "  "
+    - "&9[PaintBall VIP] &fO evento &6PaintBall VIP &festa aberto!"
+    - "&9[PaintBall VIP] &fPara participar digite &6/evento entrar"
+    - "&9[PaintBall VIP] &fEsse evento e pvp &a[OFF]"
+    - "&9[PaintBall VIP] &fRisco de morte &c[ON]"
+    - "  "
+  Iniciando:
+    - "  "
+    - "&9[PaintBall] &fEvento fechado, iniciando!"
+    - "&9[PaintBall] &fBoa sorte aos participantes!"
+    - "  "
+  Vencedor:
+    - "  "
+    - "&9[PaintBall] &fO evento &6PaintBall &ffoi finalizado!"
+    - "&9[PaintBall] &fO time vencedor foi: &6$players$&f!"
+    - "&9[PaintBall] &fPremio pago e jogadores teleportados para a saida!"
+    - "  "
+  Sem_Vencedor:
+    - "  "
+    - "&4[PaintBall] &cO evento PaintBall foi finalizado!"
+    - "&4[PaintBall] &cNao houve vencedores!"
+    - "  "
+  Cancelado:
+    - "  "
+    - "&4[PaintBall] &cEvento PaintBall foi cancelado!"
+    - "  "
+  Times:
+    - "  "
+    - "&9[PaintBall] &fTime 1: &6$time1$"
+    - "&9[PaintBall] &fTime 2: &6$time2$"
+    - "  "
+  Eliminado: "&9[PaintBall] &fO jogador &6$player$ &feliminou voce!"
+  Eliminou: "&9[PaintBall] &fVoce eliminou o jogador &6$player$&f!"

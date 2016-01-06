@@ -1,0 +1,56 @@
+Config:
+  Nome: "Mina Mortal"
+  Chamadas: 5
+  Tempo_Entre_As_Chamadas: 30
+  Evento_Tempo_Minutos: 10
+  Mensagens_Tempo_Minutos: 1
+  PVP: true
+  VIP: false
+  Assistir_Ativado: true
+  Assistir_Invisivel: true
+  Contar_Participacao: true
+  Minerios: "56;14;15;16;73;129"
+  Porcentagem_De_Minerios: 20
+
+Localizacoes:
+  Saida: "world;-110;92;1482"
+  Camarote: "evento;-51;106;251"
+  Entrada: "evento;-51;106;251"
+  Aguardando: "VIP;-1535;7;1706"
+  Mina_1: "evento;-30;105;248"
+  Mina_2: "evento;28;115;194"
+
+Mensagens:
+  Aberto:
+    - "  "
+    - "&9[Mina Mortal] &fO evento &6Mina Mortal &festa aberto!"
+    - "&9[Mina Mortal] &fPara participar digite &6/evento entrar"
+    - "&9[Mina Mortal] &fEsse evento e pvp &c[ON]"
+    - "&9[Mina Mortal] &fRisco de morte &c[ON]"
+    - "  "
+  Aberto_VIP:
+    - "  "
+    - "&9[Mina Mortal VIP] &fO evento &6Mina Mortal VIP &festa aberto!"
+    - "&9[Mina Mortal VIP] &fPara participar digite &6/evento entrar"
+    - "&9[Mina Mortal VIP] &fEsse evento e pvp &c[ON]"
+    - "&9[Mina Mortal VIP] &fRisco de morte &c[ON]"
+    - "  "
+  Iniciando:
+    - "  "
+    - "&9[Mina Mortal] &fEvento fechado, iniciando!"
+    - "&9[Mina Mortal] &fBoa sorte aos participantes!"
+    - "  "
+  Fim:
+    - "  "
+    - "&9[Mina Mortal] &fO evento Mina Mortal foi finalizado!"
+    - "  "
+  Cancelado:
+    - "  "
+    - "&4[Mina Mortal] &cEvento Mina Mortal foi cancelado!"
+    - "  "
+  Status:
+    - " "
+    - "&9[Mina Mortal] &fEvento ocorrendo no momento!"
+    - "&9[Mina Mortal] &fPara assistir utilize &6/evento assistir"
+    - "&9[Mina Mortal] &fO evento sera encerrado em &6$tempo$ &fsegundos!"
+    - " "

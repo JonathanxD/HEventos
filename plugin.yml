@@ -1,0 +1,9 @@
+main: me.herobrinedobem.heventos.HEventos
+name: HEventos
+version: 1.2
+author: Herobrinedobem
+description: Plugin de eventos automaticos
+
+commands:
+    evento:
+        description: Todos os comandos do plugin

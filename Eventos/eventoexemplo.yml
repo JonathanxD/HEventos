@@ -1,0 +1,65 @@
+Config:
+  Nome: "Parkour"
+  Chamadas: 5
+  Tempo_Entre_As_Chamadas: 30
+  PVP: false
+  VIP: false
+  Assistir_Ativado: true
+  Assistir_Invisivel: true
+  Contar_Vitoria: true
+  Contar_Participacao: true
+  
+Localizacoes:
+  Saida: "world;-110;92;1482"
+  Camarote: "world;-839;8;1109"
+  Entrada: "world;-839;8;1109"
+  Aguardando: "world;-1535;7;1706"
+
+Premios:
+  Primeiro_Lugar:
+    - "give $player$ diamond 3"
+  Segundo_Lugar:
+    - "give $player$ diamond 2"
+  Terceiro_Lugar:
+    - "give $player$ diamond 1"
+  Money: 5000.0
+
+Mensagens:
+  Aberto:
+    - "  "
+    - "&9[Parkour] &fO evento &6Parkour &festa aberto!"
+    - "&9[Parkour] &fPara participar digite &6/evento entrar"
+    - "&9[Parkour] &fEsse evento e pvp &a[OFF]"
+    - "&9[Parkour] &fRisco de morte &c[ON]"
+    - "  "
+  Aberto_VIP:
+    - "  "
+    - "&9[Parkour VIP] &fO evento &6Parkour VIP &festa aberto!"
+    - "&9[Parkour VIP] &fPara participar digite &6/evento entrar"
+    - "&9[Parkour VIP] &fEsse evento e pvp &a[OFF]"
+    - "&9[Parkour VIP] &fRisco de morte &c[ON]"
+    - "  "
+  Iniciando:
+    - "  "
+    - "&9[Parkour] &fEvento fechado, iniciando!"
+    - "&9[Parkour] &fBoa sorte aos participantes!"
+    - "  "
+  Vencedor:
+    - "  "
+    - "&9[Parkour] &fO evento &6Parkour &ffoi finalizado!"
+    - "&9[Parkour] &fO vencedor foi &6$player$&f!"
+    - "&9[Parkour] &fPremio pago e jogadores teleportados para a saida!"
+    - "  "
+  Sem_Vencedor:
+    - "  "
+    - "&4[Parkour] &cO evento Parkour foi finalizado!"
+    - "&4[Parkour] &cNao houve vencedores!"
+    - "  "
+  Cancelado:
+    - "  "
+    - "&4[Parkour] &cEvento Parkour foi cancelado!"
+    - "  "
+  Lugar:
+    - "  "
+    - "&9[Parkour] &fO jogador &6$player$ &fchegou em &6$posicao$ &flugar!"
+    - "  "
